@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8f5ec" />
+
+    <title>Ariana Luz | Bautizo & Corte de pelo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <!-- Capa de lluvia de estrellas -->
+    <canvas id="starCanvas" aria-hidden="true"></canvas>
+
+    <!-- Luces ambientales -->
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <main class="invitation">
+      <div class="top-ornament" aria-hidden="true">✦</div>
+
+      <p class="eyebrow reveal">
+        Con la bendición de Dios y el amor de nuestras familias
+      </p>
+
+      <h1 class="script-title reveal">Ariana Luz</h1>
+
+      <p class="subtitle reveal">Bautizo &amp; Corte de pelo</p>
+
+      <!-- Retrato de Ariana -->
+      <div class="portrait-frame reveal">
+        <div class="portrait-inner">
+          <img src="assets/ariana.jpg" alt="Retrato de Ariana Luz" />
+        </div>
+
+        <span class="frame-sparkle sparkle-one" aria-hidden="true">✧</span>
+        <span class="frame-sparkle sparkle-two" aria-hidden="true">✦</span>
+      </div>
+
+      <p class="invitation-copy reveal">
+        Hay momentos que se vuelven recuerdos para toda la vida. Nos encantará
+        compartir contigo este día tan especial.
+      </p>
+
+      <!-- Fecha -->
+      <div class="date-block reveal">
+        <span class="date-line"></span>
+
+        <div>
+          <p class="date-day">Viernes</p>
+          <p class="date-number">02 <span>·</span> 10 <span>·</span> 2026</p>
+          <p class="date-month">Octubre</p>
+        </div>
+
+        <span class="date-line"></span>
+      </div>
+
+      <!-- Countdown TickCounter -->
+      <section class="countdown-section reveal">
+        <p class="countdown-label">La magia comienza en...</p>
+
+        <div class="countdown-frame">
+          <script>
+            (function (d, s, id) {
+              var js,
+                pjs = d.getElementsByTagName(s)[0];
+
+              if (d.getElementById(id)) return;
+
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "https://www.tickcounter.com/static/js/loader.js";
+
+              pjs.parentNode.insertBefore(js, pjs);
+            })(document, "script", "tickcounter-sdk");
+          </script>
+
+          <a
+            data-type="countdown"
+            data-id="11706375"
+            class="tickcounter"
+            style="
+              display: block;
+              width: 100%;
+              height: 50px;
+              position: relative;
+              padding-bottom: 0;
+              margin: 0 auto;
+            "
+            title="Cuenta regresiva para el bautizo de Ariana Luz"
+            href="https://www.tickcounter.com/"
+          >
+            Cuenta regresiva
+          </a>
+        </div>
+      </section>
+
+      <!-- Ceremonia de bautizo -->
+      <section class="event-card reveal">
+        <div class="event-icon" aria-hidden="true">✧</div>
+
+        <p class="event-label">Ceremonia de bautizo</p>
+
+        <h2>Iglesia San Jerónimo</h2>
+
+        <p class="event-place">Asillo</p>
+
+        <p class="event-time">4:00 p. m.</p>
+
+        <a
+          class="map-link"
+          href="https://maps.app.goo.gl/WcKJXK7nGRMwZfrJA"
+          target="_blank"
+          rel="noopener"
+        >
+          Ver ubicación <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+
+      <div class="divider reveal"><span>❦</span></div>
+
+      <!-- Recepción -->
+      <section class="event-card reception-card reveal">
+        <div class="event-icon" aria-hidden="true">✧</div>
+
+        <p class="event-label">Recepción y celebración</p>
+
+        <h2>Local de Eventos<br />El Tío Antonio</h2>
+
+        <p class="event-place">Progreso, Puno</p>
+
+        <p class="event-time">6:00 p. m.</p>
+
+        <a
+          class="map-link"
+          href="https://maps.app.goo.gl/mQNWuuNBMKm4YLLNA"
+          target="_blank"
+          rel="noopener"
+        >
+          Ver ubicación <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+
+      <!-- Padres -->
+      <section class="family reveal">
+        <p class="family-heading">Con mucho cariño, sus papás</p>
+
+        <p class="family-names">
+          Over Hancco Ramos<br />
+          <span>&amp;</span><br />
+          Martha Quispe Huanca
+        </p>
+      </section>
+
+      <!-- Padrinos -->
+      <section class="godparents reveal">
+        <div class="godparent-group">
+          <p class="family-heading">Padrinos de bautizo</p>
+
+          <p>
+            Dr. Roger Cancino Ccallo<br />
+            Roxana Apaza Pacconsconco
+          </p>
+        </div>
+
+        <div class="godparent-group">
+          <p class="family-heading">Padrinos de corte de pelo</p>
+
+          <p>
+            Tomás Flores Curo<br />
+            Mary Luz Luque Sánchez
+          </p>
+        </div>
+      </section>
+
+      <p class="closing reveal">Tu presencia hará este día aún más especial.</p>
+
+      <p class="signature reveal">Con amor, la familia Hancco Quispe</p>
+
+      <!-- Logo del local anfitrión -->
+      <div class="venue-brand reveal">
+        <p class="venue-brand-label">Celebramos juntos en</p>
+
+        <a
+          class="venue-logo-link"
+          href="https://maps.app.goo.gl/mQNWuuNBMKm4YLLNA"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Cómo llegar al Local de Eventos El Tío Antonio en Google Maps"
+        >
+          <img
+            src="/assets/logo_principal.png"
+            alt="Local de Eventos El Tío Antonio"
+            class="venue-logo"
+          />
+
+          <span class="venue-logo-hint">
+            <span>📍</span> Toca aquí para ver la ubicación
+          </span>
+        </a>
+
+        <p class="venue-brand-name">Local de Eventos El Tío Antonio</p>
+      </div>
+
+      <!-- Música -->
+      <button
+        class="music-button"
+        id="musicButton"
+        type="button"
+        aria-label="Activar música"
+      >
+        <span id="musicIcon" aria-hidden="true">♫</span>
+        <span id="musicText">Activar música</span>
+      </button>
+
+      <audio
+        id="backgroundMusic"
+        src="assets/musica.mp3"
+        loop
+        preload="none"
+      ></audio>
+
+      <!-- Confirmación de asistencia -->
+      <section class="rsvp-section reveal">
+        <div class="rsvp-card">
+          <span class="rsvp-decoration">✦</span>
+
+          <p class="rsvp-eyebrow">¡Nos encantará contar contigo!</p>
+
+          <h2>¿Nos acompañas?</h2>
+
+          <p class="rsvp-message">
+            Confírmanos tu asistencia y celebremos juntos este día tan especial
+            para Ariana Luz.
+          </p>
+
+          <a
+            class="rsvp-button"
+            href="https://wa.me/51910594824?text=Hola%2C%20confirmo%20mi%20asistencia%20al%20bautizo%20y%20corte%20de%20pelo%20de%20Ariana%20Luz.%20%F0%9F%8E%80"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Confirmar asistencia por WhatsApp"
+          >
+            <span>💌</span>
+            Confirmar mi asistencia
+            <span class="rsvp-arrow">↗</span>
+          </a>
+
+          <p class="rsvp-note">
+            Tu confirmación llegará directamente por WhatsApp.
+          </p>
+        </div>
+      </section>
+
+      <!-- Créditos -->
+      <footer class="site-footer">
+        <p>Hecho con <span class="footer-heart">♥</span> y mucho cariño por</p>
+
+        <a
+          class="footer-credit"
+          href="https://wa.me/51910594824?text=Hola%20Kenyi%2C%20vi%20la%20invitaci%C3%B3n%20de%20Ariana%20Luz%20y%20quer%C3%ADa%20saludarte."
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Contactar a Kenyi Hancco por WhatsApp"
+        >
+          su hermano, Kenyi Hancco
+          <span class="footer-link-icon">↗</span>
+        </a>
+
+        <span class="footer-signature"
+          >Un recuerdo digital para un día inolvidable ✨</span
+        >
+      </footer>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
